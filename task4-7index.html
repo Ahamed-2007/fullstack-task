@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ahamed Haseeba Portfolio</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+    scroll-behavior:smooth;
+}
+
+nav{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:#ff2d20;
+    padding:20px 80px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    z-index:1000;
+}
+
+.logo{
+    color:white;
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+nav ul li{
+    margin-left:30px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+
+.hero{
+    background:#ff2d20;
+    min-height:100vh;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:120px 80px;
+}
+
+.content{
+    width:50%;
+}
+
+.content h1{
+    color:white;
+    font-size:70px;
+}
+
+.content h2{
+    color:white;
+    font-size:85px;
+    line-height:90px;
+}
+
+.content h3{
+    color:white;
+    font-size:35px;
+    margin-top:15px;
+}
+
+.content p{
+    color:white;
+    margin-top:20px;
+    font-size:18px;
+    line-height:30px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:12px 25px;
+    background:white;
+    color:black;
+    text-decoration:none;
+    border-radius:30px;
+    margin-right:15px;
+    font-weight:bold;
+}
+
+.image{
+    width:40%;
+    text-align:center;
+}
+
+.image img{
+    width:450px;
+    border-radius:20px;
+}
+
+.section{
+    padding:100px 80px;
+    background:white;
+}
+
+.section h1{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:45px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+table,th,td{
+    border:1px solid black;
+}
+
+th{
+    background:#ff2d20;
+    color:white;
+}
+
+th,td{
+    padding:15px;
+    text-align:center;
+}
+
+.card{
+    background:#f4f4f4;
+    padding:30px;
+    border-radius:15px;
+    margin-top:20px;
+}
+
+.card h2{
+    color:#ff2d20;
+    margin-bottom:15px;
+}
+
+.card ul{
+    margin-left:20px;
+    line-height:35px;
+}
+
+.contact{
+    text-align:center;
+    line-height:40px;
+    font-size:20px;
+}
+
+footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">Welcome </div>
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#internship">Internship</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero" id="home">
+
+    <div class="content">
+
+        <h1>Hi, I'm</h1>
+
+        <h2>Ahamed<br>Haseeba</h2>
+
+        <h3>FULL STACK DEVELOPER</h3>
+
+        <p>
+            I build fast, scalable and modern web applications
+            using HTML, CSS, Bootstrap and Python.
+        </p>
+
+        <a href="#education" class="btn">View Profile</a>
+        <a href="#contact" class="btn">Contact Me</a>
+
+    </div>
+
+    <div class="image">
+        <img src="C:\Users\welcome\OneDrive\Pictures\Saved Pictures\haseeba.jpeg" alt="My Photo">
+    </div>
+
+</section>
+
+<section class="section" id="education">
+
+    <h1>Education</h1>
+
+    <table>
+
+        <tr>
+            <th>Qualification</th>
+            <th>Institution</th>
+            <th>Percentage</th>
+        </tr>
+
+        <tr>
+            <td>10th Standard</td>
+            <td>Kavitha Matric Higher Secondary School</td>
+            <td>78.4%</td>
+        </tr>
+
+        <tr>
+            <td>12th Standard</td>
+            <td>Kavitha Matric Higher Secondary School</td>
+            <td>69.7%</td>
+        </tr>
+
+        <tr>
+            <td>B.Sc Computer Science</td>
+            <td>SDNBV college</td>
+            <td>2024-2027</td>
+        </tr>
+
+    </table>
+
+</section>
+
+<section class="section" id="internship">
+
+    <h1>Internship Experience</h1>
+
+    <div class="card">
+
+        <h2>StudAI</h2>
+
+        <ul>
+            <li>Graphic Designer Intern - 2 Months</li>
+            <li>Worked on Frontend Development</li>
+            <li>Worked on Backend Development</li>
+            <li>Created UI Designs and Content</li>
+            <li>Built Modern Web Applications</li>
+        </ul>
+
+    </div>
+
+</section>
+
+<section class="section" id="contact">
+
+    <h1>Contact Me</h1>
+
+    <div class="contact">
+
+        <p>Email : ahamedhaseeba@gmail.com</p>
+
+        <p>Phone : +91 1235423589</p>
+
+        <p>
+    LinkedIn :
+    <a href="https://www.linkedin.com/in/ahamed-haseeba-5b7627317/" target="_blank">
+        My LinkedIn Profile
+    </a>
+</p>
+
+<p>
+    GitHub :
+    <a href="https://github.com/Ahamed-2007" target="_blank">
+        My GitHub Profile
+    </a>
+</p>
+    </div>
+
+</section>
+
+<footer>
+    © 2026 Ahamed Haseeba | Full Stack Developer
+</footer>
+
+</body>
+</html>
